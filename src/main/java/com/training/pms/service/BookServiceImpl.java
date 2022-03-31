@@ -26,7 +26,7 @@ public class BookServiceImpl implements BookService {
 	@Override
 	public Book saveBook(Book book) {
 		List<Story> storyList = new ArrayList<>();
-
+		System.out.println("Testing");
 		// create first story
 		Story story1 = new Story();
 		story1.setStoryName("Push Ki Rat");
